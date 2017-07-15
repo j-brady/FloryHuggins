@@ -1,0 +1,19 @@
+# Yaml config file for fitting multiple datasets 
+wt:
+    
+    model:
+        !!python/object:__main__.FloryHuggins
+        N1: 153 
+        N2: 1
+        rho: 1400
+        
+    data:
+        - "data_1.txt"
+        - "data_2.txt"
+        - "data_3.txt"
+   
+    p0: [0.0001,0.8]
+
+    temp_range: [0.,100.]
+
+    outpath: "results"
