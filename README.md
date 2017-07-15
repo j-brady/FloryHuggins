@@ -49,3 +49,13 @@ run `python fit_FT.py`
 ![equation](https://latex.codecogs.com/gif.latex?\frac{\Delta&space;F_{mix}}{kT}&space;=&space;\frac{\phi}{N_1}&space;ln&space;\phi&space;&plus;&space;\frac{(1-\phi)}{N_2}&space;ln&space;(1-\phi)&space;&plus;&space;\chi&space;\phi&space;(1-\phi))
 
 ![equation](https://latex.codecogs.com/gif.latex?\left(&space;\frac{&space;\partial&space;\Delta&space;F_{mix}&space;}{&space;\partial&space;\phi&space;}&space;\right)&space;_{\phi=\phi'}&space;=&space;\left(&space;\frac{&space;\partial&space;\Delta&space;F_{mix}&space;}{&space;\partial&space;\phi&space;}&space;\right)&space;_{\phi=\phi''})
+
+![equation](https://latex.codecogs.com/gif.latex?\frac{\Delta&space;F_{mix}(\phi')&space;-&space;\Delta&space;F_{mix}(\phi'')}{\phi'&space;-&space;\phi''}&space;=&space;\left(&space;\frac{&space;\partial&space;\Delta&space;F_{mix}&space;}{&space;\partial&space;\phi&space;}&space;\right)&space;_{\phi=\phi'or\phi&space;''})
+
+where
+
+![equation](https://latex.codecogs.com/gif.latex?\left(&space;\frac{&space;\partial&space;\Delta&space;F_{mix}&space;}{&space;\partial&space;\phi&space;}&space;\right)&space;=&space;kT&space;\bigg[&space;\frac{ln\phi}{N_1}&space;&plus;&space;\frac{1}{N_1}&space;-&space;\frac{ln(1-\phi)}{N_2}&space;-&space;\frac{1}{N_2}&space;&plus;&space;\chi(1&space;-&space;2&space;\phi)&space;\bigg])
+
+yielding
+
+![equation](https://latex.codecogs.com/gif.latex?\chi&space;=&space;A&plus;\frac{B}{T}=\frac{\frac{1}{N_1}&space;ln\left(\frac{\phi&space;''}{\phi&space;'}\right)&space;&plus;&space;\frac{1}{N_2}&space;ln\left(\frac{1-\phi&space;'}{1-\phi&space;''}\right)}{2(\phi&space;''&space;-&space;\phi&space;')})
