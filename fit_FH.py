@@ -30,8 +30,8 @@ for i in configs.keys():
         T = data[:,0]+273.15
         phi1 = FHmodel.phi_protein(data[:,1])
         phi1_err = FHmodel.phi_protein(data[:,2])
-        phi2 = FHmodel.phi_protein(data[:,3]*3.)
-        phi2_err = FHmodel.phi_protein(data[:,4]*3.)
+        phi2 = FHmodel.phi_protein(data[:,3])
+        phi2_err = FHmodel.phi_protein(data[:,4])
 
         # Fit chis for dH and dS from phi1 and phi2 values
         x0 = [-1.,100.]
