@@ -1,5 +1,8 @@
 # Simple Flory Huggins Phase Diagram Fitting
 ##
+Here are the scripts I used to fit the Flory Huggins model to Ddx4 phase diagrams in our submitted manuscript on the structural and hydrodynamic properties of the protein.
+
+Currently, the most simple form of the model is used and salt concentration is not taken into account in the fitting.
 
 ## Input data
 Tab separated concentration values e.g.
@@ -36,17 +39,13 @@ wt:
 
 ```
 
-`python fit_FT.py`
+run `python fit_FT.py`
 
 ### Tips
 
 
 
 ## Theory
-```mathjax
- \frac{\Delta F_{mix}}{kT} = \frac{\phi}{N_1} ln \phi + \frac{(1-\phi)}{N_2} ln (1-\phi) + \chi \phi (1-\phi)
-```
+![equation](https://latex.codecogs.com/gif.latex?\frac{\Delta&space;F_{mix}}{kT}&space;=&space;\frac{\phi}{N_1}&space;ln&space;\phi&space;&plus;&space;\frac{(1-\phi)}{N_2}&space;ln&space;(1-\phi)&space;&plus;&space;\chi&space;\phi&space;(1-\phi))
 
-```mathjax
- \left( \frac{ \partial \Delta F_{mix} }{ \partial \phi } \right) _{\phi=\phi'} = \left( \frac{ \partial \Delta F_{mix} }{ \partial \phi } \right) _{\phi=\phi''}
-```
+![equation](https://latex.codecogs.com/gif.latex?\left(&space;\frac{&space;\partial&space;\Delta&space;F_{mix}&space;}{&space;\partial&space;\phi&space;}&space;\right)&space;_{\phi=\phi'}&space;=&space;\left(&space;\frac{&space;\partial&space;\Delta&space;F_{mix}&space;}{&space;\partial&space;\phi&space;}&space;\right)&space;_{\phi=\phi''})
